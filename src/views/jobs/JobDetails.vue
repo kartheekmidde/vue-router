@@ -6,9 +6,11 @@
 <script>
 export default {
   name: "JobDetails",
+  props: ['id'],
   data() {
     return {
-      id: this.$route.params.id
+      //Since props are set to true
+      // id: this.$route.params.id
     }
   }
 }
